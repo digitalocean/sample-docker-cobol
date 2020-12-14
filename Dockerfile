@@ -10,5 +10,6 @@ COPY app.py app.py
 COPY gunicorn_config.py gunicorn_config.py
 RUN cobc -free -x HelloWorld.cbl
 RUN cobc -free -x Sorry.cbl
+RUN df -h
 CMD gunicorn --worker-tmp-dir /dev/shm --config gunicorn_config.py app:app
  

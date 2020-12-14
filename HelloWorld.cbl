@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID.  Sorry.
+       PROGRAM-ID.  HelloWorld.
        DATA DIVISION.
        PROCEDURE DIVISION.
        DisplayPrompt.

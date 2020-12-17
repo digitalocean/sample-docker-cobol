@@ -1,0 +1,8 @@
+spec:
+  name: sample-docker-cobol
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-docker-cobol.git
+    name: sample-docker-cobol

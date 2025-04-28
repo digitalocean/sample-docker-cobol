@@ -1,3 +1,6 @@
+> ⚠️ **This repository is archived and kept for reference purposes only.**  
+> It is no longer maintained and will not receive updates or support.
+
 # Getting Started #
 
 These steps will get this sample COBOL application running for you using DigitalOcean. This application compiles two separate COBOL files and hostes them at `/` and `/hal`. This application uses Python's Flask Framework to route and execute the COBOL binaries.
